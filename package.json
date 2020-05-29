@@ -1,11 +1,18 @@
 {
   "name": "lance-v",
   "version": "0.1.0",
-  "private": true,
+  "author": {
+    "email": "lance.dai028219@gmail.com",
+    "name": "LanceDai",
+    "url": "https://www.blog.lancedai.cn"
+  },
+  "description": "the vue components created by LanceDai",
+  "main": "lib/lance-v.common.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib --name lance-v --dest lib packages/index.js"
   },
   "dependencies": {
     "core-js": "^3.6.4",
@@ -18,7 +25,9 @@
     "babel-eslint": "^10.0.3",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.1.2",
-    "vue-template-compiler": "^2.6.11"
+    "vue-template-compiler": "^2.6.11",
+    "node-sass": "^4.13.0",
+    "sass-loader": "^8.0.0"
   },
   "eslintConfig": {
     "root": true,

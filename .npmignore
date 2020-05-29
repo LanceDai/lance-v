@@ -1,0 +1,14 @@
+# 忽略目录
+.idea/
+examples/
+packages/
+public/
+
+# 忽略指定文件
+.yarnrc
+yarn-error.log
+npm-debug.log
+vue.config.js
+babel.config.js
+*.map
+

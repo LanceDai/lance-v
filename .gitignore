@@ -1,21 +1,14 @@
-.DS_Store
-node_modules
-/dist
+# 需要排除的文件夹
+/node_modules
+/lib
+/.idea
 
-# local env files
-.env.local
-.env.*.local
 
+#需要排除的文件
 # Log files
 npm-debug.log*
 yarn-debug.log*
-yarn-error.log*
+yarn-error.log
+# 配置文件
+.yarnrc
 
-# Editor directories and files
-.idea
-.vscode
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?

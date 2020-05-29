@@ -1,24 +1,11 @@
 # lance-v
 
-## Project setup
-```
-npm install
-```
+## How To Use
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+```bash
+npm i lance-v:0.1.0
+``` 
+or
+```bash
+yarn add lance-v:0.1.0
+``` 
